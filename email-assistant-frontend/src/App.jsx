@@ -1,6 +1,5 @@
 
 import { Box, Button, CircularProgress, Container, FormControl, InputLabel, MenuItem, Select, TextField, Typography } from '@mui/material'
-import './App.css'
 import { useState } from 'react';
 import axios from 'axios';
 
