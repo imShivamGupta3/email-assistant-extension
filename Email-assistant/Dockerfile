@@ -21,4 +21,4 @@ COPY src ./src
 RUN ./mvnw package -DskipTests
 
 # Set the command to run the application
-ENTRYPOINT ["java","-jar","target\Email-assistant-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","target/Email-assistant-0.0.1-SNAPSHOT.jar"]
